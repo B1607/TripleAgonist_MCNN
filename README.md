@@ -11,6 +11,8 @@ TripleAgonist_MCNN is a structure-generative and sequence-discriminative computa
 
 TripleAgonist_MCNN yields a refined set of N-terminally standardized triple-agonist candidates validated via AlphaFold3 complex structure prediction ($\text{pTM} > 0.5$, $\text{ipTM} > 0.7$, interfacial $\text{PAE} < 5\text{ \AA}$) to support downstream experimental synthesis and screening. Predictions reflect computational sequence classification and structural plausibility rather than direct experimental confirmation of receptor agonism or therapeutic efficacy. <br>
 
+![workflow](figure/workflow.png)
+
 ## 📃Dataset <a name="Dataset"></a>
 
 Primary peptide sequences for GLP-1, GCG, and GIP were retrieved from the ChEMBL database and deduplicated to construct receptor-specific binary classification datasets. Positive samples comprise peptides experimentally validated to activate the target receptor, whereas negative samples consist of peptides from the other two families known not to bind or activate that receptor.
